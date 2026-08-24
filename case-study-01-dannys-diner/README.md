@@ -51,6 +51,4 @@ The database contains three tables:
 - [`schema.sql`](./schema.sql) — database creation and sample data
 - [`solutions.sql`](./solutions.sql) — SQL queries for all questions
 
-## Analysis Status
 
-The database schema and detailed SQL analysis are currently in progress.
