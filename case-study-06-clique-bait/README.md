@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="./images/cover.png"
+    src="./images/case-study-06-cliquebait.png"
     alt="Clique Bait SQL case study"
     width="500"
   >
