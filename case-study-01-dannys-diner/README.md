@@ -1,5 +1,13 @@
 # Danny's Diner: Customer and Loyalty Analysis
 
+<p align="center">
+  <img
+    src="./images/case-study-01-dannys-diner.png"
+    alt="Danny's Diner case study"
+    width="500"
+  >
+</p>
+
 ## Project Overview
 
 Danny's Diner is a small restaurant that sells sushi, curry and ramen.
