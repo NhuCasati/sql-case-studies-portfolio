@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="./images/cover.png"
+    src="./images/case-study-05-data-mart.png"
     alt="Data Mart SQL case study"
     width="500"
   >
