@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="./images/cover.png"
+    src="./images/case-study-03-foodie-fi.png"
     alt="Foodie-Fi SQL case study"
     width="500"
   >
