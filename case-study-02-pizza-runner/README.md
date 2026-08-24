@@ -62,13 +62,53 @@ The database contains six tables:
 
 ## Entity Relationship Diagram
 
-<p align="center">
-  <img
-    src="./images/erd.png"
-    alt="Pizza Runner entity relationship diagram"
-    width="800"
-  >
-</p>
+
+```mermaid
+erDiagram
+    RUNNERS {
+        integer runner_id
+        date registration_date
+    }
+
+    RUNNER_ORDERS {
+        integer order_id
+        integer runner_id
+        varchar pickup_time
+        varchar distance
+        varchar duration
+        varchar cancellation
+    }
+
+    CUSTOMER_ORDERS {
+        integer order_id
+        integer customer_id
+        integer pizza_id
+        varchar exclusions
+        varchar extras
+        timestamp order_time
+    }
+
+    PIZZA_NAMES {
+        integer pizza_id
+        text pizza_name
+    }
+
+    PIZZA_RECIPES {
+        integer pizza_id
+        text toppings
+    }
+
+    PIZZA_TOPPINGS {
+        integer topping_id
+        text topping_name
+    }
+
+    RUNNERS ||--o{ RUNNER_ORDERS : "runner_id"
+    RUNNER_ORDERS ||--|{ CUSTOMER_ORDERS : "order_id"
+    PIZZA_NAMES ||--o{ CUSTOMER_ORDERS : "pizza_id"
+    PIZZA_NAMES ||--|| PIZZA_RECIPES : "pizza_id"
+    PIZZA_TOPPINGS }o--o{ PIZZA_RECIPES : "topping IDs"
+```
 
 ---
 
