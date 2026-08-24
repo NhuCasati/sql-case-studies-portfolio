@@ -119,6 +119,7 @@ erDiagram
 3. [Runner and Customer Experience](./03-runner-customer-experience.md)
 4. [Ingredient Optimisation](./04-ingredient-optimisation.md)
 5. [Pricing and Ratings](./05-pricing-ratings.md)
+6. [Bonus Questions](./06-bonus-dml.md)
 
 ---
 
