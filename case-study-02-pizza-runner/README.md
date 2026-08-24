@@ -1,10 +1,18 @@
 # Pizza Runner: Operations and Delivery Analysis
 
+<p align="center">
+  <img
+    src="./images/case-study-02-pizza-runner.png"
+    alt="Pizza Runner SQL case study"
+    width="500"
+  >
+</p>
+
 ## Project Overview
 
 Pizza Runner is a pizza delivery business that uses freelance runners to deliver customer orders.
 
-This case study uses PostgreSQL to clean and analyse order, delivery, runner and ingredient data. The objective is to understand ordering behaviour, delivery performance, customer preferences and business profitability.
+This case study uses PostgreSQL to clean and analyse customer orders, deliveries, runner performance, pizza customisations, ingredients and business profitability.
 
 This project is based on Case Study 2 of the [8 Week SQL Challenge](https://8weeksqlchallenge.com/case-study-2/) created by Data With Danny.
 
@@ -15,20 +23,15 @@ This project is based on Case Study 2 of the [8 Week SQL Challenge](https://8wee
 - [Business Task](#business-task)
 - [Dataset](#dataset)
 - [Entity Relationship Diagram](#entity-relationship-diagram)
-- [Data Cleaning and Transformation](#data-cleaning-and-transformation)
-- [A. Pizza Metrics](#a-pizza-metrics)
-- [B. Runner and Customer Experience](#b-runner-and-customer-experience)
-- [C. Ingredient Optimisation](#c-ingredient-optimisation)
-- [D. Pricing and Ratings](#d-pricing-and-ratings)
-- [Key Findings](#key-findings)
-- [Assumptions and Limitations](#assumptions-and-limitations)
-- [What I Learned](#what-i-learned)
+- [Analysis Sections](#analysis-sections)
+- [Tools and SQL Techniques](#tools-and-sql-techniques)
+- [Source](#source)
 
 ---
 
 ## Business Task
 
-Danny wants to understand how Pizza Runner is performing and identify opportunities to improve the business.
+Danny wants to understand how Pizza Runner is performing and identify opportunities to improve its operations.
 
 The analysis focuses on:
 
@@ -44,78 +47,62 @@ The analysis focuses on:
 
 ## Dataset
 
-The database contains the following tables:
+The database contains six tables:
 
 | Table | Description |
 |---|---|
 | `runners` | Runner registration information |
 | `customer_orders` | Customer pizza orders and customisations |
-| `runner_orders` | Delivery, distance, duration and cancellation information |
+| `runner_orders` | Delivery details, distance, duration and cancellations |
 | `pizza_names` | Pizza names |
 | `pizza_recipes` | Standard ingredients for each pizza |
-| `pizza_toppings` | Pizza topping names |
+| `pizza_toppings` | Available pizza toppings |
 
 ---
 
 ## Entity Relationship Diagram
 
-The entity relationship diagram will be added here.
+<p align="center">
+  <img
+    src="./images/erd.png"
+    alt="Pizza Runner entity relationship diagram"
+    width="800"
+  >
+</p>
 
 ---
 
-## Data Cleaning and Transformation
+## Analysis Sections
 
-The original dataset contains inconsistent values such as:
-
-- Blank values
-- Text values containing `null`
-- Distances containing `km`
-- Durations containing `minutes`, `minute` or `mins`
-- Columns stored using unsuitable data types
-
-The data must be cleaned before completing the analysis.
+1. [Data Cleaning and Transformation](./01-data-cleaning.md)
+2. [Pizza Metrics](./02-pizza-metrics.md)
+3. [Runner and Customer Experience](./03-runner-customer-experience.md)
+4. [Ingredient Optimisation](./04-ingredient-optimisation.md)
+5. [Pricing and Ratings](./05-pricing-ratings.md)
 
 ---
 
-# A. Pizza Metrics
+## Tools and SQL Techniques
 
-Questions and solutions related to pizza orders will be added here.
+### Tools
 
----
+- PostgreSQL
+- DB Fiddle
+- GitHub
+- Markdown
 
-# B. Runner and Customer Experience
+### SQL techniques
 
-Questions and solutions related to runners, deliveries and customer experience will be added here.
-
----
-
-# C. Ingredient Optimisation
-
-Questions and solutions related to recipes, exclusions, extras and topping usage will be added here.
-
----
-
-# D. Pricing and Ratings
-
-Questions and solutions related to revenue, costs, ratings and profitability will be added here.
-
----
-
-## Key Findings
-
-Key findings will be added after completing the analysis.
-
----
-
-## Assumptions and Limitations
-
-Assumptions and data limitations will be documented here.
-
----
-
-## What I Learned
-
-The technical and analytical skills demonstrated in this project will be summarised here.
+- Data cleaning
+- Type conversion
+- String manipulation
+- Table joins
+- Aggregate functions
+- Common Table Expressions
+- Window functions
+- Conditional logic
+- Date and time calculations
+- Unnesting comma-separated values
 
 ---
 
