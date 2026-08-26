@@ -2,7 +2,7 @@
 
 <p align="center">
   <img
-    src="./images/cover.png"
+    src="./images/case-study-08-fresh-segments.png"
     alt="Fresh Segments SQL case study"
     width="500"
   >
