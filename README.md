@@ -1,72 +1,38 @@
 # SQL Case Studies Portfolio
 
-A collection of SQL case studies focused on solving business problems, analysing data and communicating actionable insights.
+I created this portfolio while working through the [8 Week SQL Challenge](https://8weeksqlchallenge.com/) by Data With Danny.
 
-This portfolio is based on the [8 Week SQL Challenge](https://8weeksqlchallenge.com/) created by Data With Danny.
+Each case study focuses on more than writing queries. I explore the data, solve a business problem and explain what the results could mean for decision-making.
 
-## Skills Demonstrated
+## What This Portfolio Demonstrates
 
-- Data exploration
-- Data cleaning
-- Table joins
-- Aggregate functions
+- Data exploration and cleaning
+- Joins, aggregations and conditional logic
 - Common Table Expressions
 - Window functions
-- Conditional logic
-- Date analysis
-- Customer behaviour analysis
-- Business insight generation
+- Date and time analysis
+- Customer and product behaviour analysis
+- Clear communication of business insights
 
 ## Case Studies
 
-| No. | Case Study | Business Focus | Status |
-|---:|---|---|---|
-| 1 | [Danny's Diner](./case-study-01-dannys-diner/) | Customer behaviour and loyalty | In progress |
-| 2 | Pizza Runner | Delivery and operational analysis | Planned |
-| 3 | Foodie-Fi | Subscription analysis | Planned |
-| 4 | Data Bank | Customer and banking analysis | Planned |
-| 5 | Data Mart | Retail sales analysis | Planned |
-| 6 | Clique Bait | Digital marketing analysis | Planned |
-| 7 | Balanced Tree Clothing Co. | Product and sales analysis | Planned |
-| 8 | Fresh Segments | Customer segmentation | Planned |
+| No. | Case Study | Business Focus |
+|---:|---|---|
+| 1 | [Danny's Diner](./case-study-01-dannys-diner/) | Customer behaviour and loyalty |
+| 2 | [Pizza Runner](./case-study-02-pizza-runner/) | Delivery operations and customer orders |
+| 3 | [Foodie-Fi](./case-study-03-foodie-fi/) | Subscriptions, conversion and churn |
+| 4 | [Data Bank](./case-study-04-data-bank/) | Banking transactions and data allocation |
+| 5 | [Data Mart](./case-study-05-data-mart/) | Retail sales and business impact |
+| 6 | [Clique Bait](./case-study-06-clique-bait/) | Digital funnels and campaign performance |
+| 7 | [Balanced Tree Clothing Co.](./case-study-07-balanced-tree/) | Product, transaction and sales performance |
+| 8 | [Fresh Segments](./case-study-08-fresh-segments/) | Customer interests and digital marketing trends |
 
 ## Tools
 
-- PostgreSQL
-- DB Fiddle
-- GitHub
-- Markdown
+`PostgreSQL` · `DB Fiddle` · `GitHub` · `Markdown`
 
-## Repository Structure
+## My Approach
 
-```text
-sql-case-studies-portfolio/
-├── README.md
-├── assets/
-├── case-study-01-dannys-diner/
-├── case-study-02-pizza-runner/
-├── case-study-03-foodie-fi/
-├── case-study-04-data-bank/
-├── case-study-05-data-mart/
-├── case-study-06-clique-bait/
-├── case-study-07-balanced-tree/
-└── case-study-08-fresh-segments/
-```
+For each case study, I start by understanding the business question and checking the quality of the data. I then build the SQL analysis step by step and translate the results into practical insights.
 
-## Project Approach
-
-For each case study, I document:
-
-1. The business problem
-2. The available dataset
-3. The data model
-4. The SQL approach
-5. Query results
-6. Business insights
-7. Assumptions and limitations
-
-## Author
-
-**Nhu Casati**
-
-[GitHub Profile](https://github.com/NhuCasati)
+The goal of this portfolio is to show not only how I use SQL, but also how I approach a problem, question the data and communicate the findings clearly.
